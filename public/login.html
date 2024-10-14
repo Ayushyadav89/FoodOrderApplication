@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sign In and Sign Up Form</title>
+    <link rel="stylesheet" href="../css/login.css">
+</head>
+<body>
+    <div class="hero">
+        <div class="form-box">
+            <div class="button-box">
+                <div id="btn"></div>
+                <button type="button" class="toggle-btn" onclick="login()">Log In</button>
+                <button type="button" class="toggle-btn" onclick="register()">Sign Up</button>
+            </div>
+            <div class="social-icons">
+                <img src="../image/google.jpg" alt="" class="small-image">
+                <img src="../image/twiiter.jpg" alt="" class="small-image">
+                <img src="../image/facebook.jpg" alt="" class="small-image">
+            </div>
+            <form id="login" class="input-group">
+                <input type="text" class="input-field" placeholder="User Id" required id="login-username">
+                <input type="password" class="input-field" placeholder="Enter Password" required id="login-password">
+                <input type="checkbox" class="check-box" id="remember"><span>Remember Password</span>
+                <button type="button" class="submit-btn" onclick="loginFunc()">login</button>
+            </form>
+            <form id="register" class="input-group">
+                <input type="text" class="input-field" placeholder="User Id" required id="register-username">
+                <input type="email" class="input-field" placeholder="Email Id" required id="register-email">
+                <input type="password" class="input-field" placeholder="Enter Password" required id="register-password">
+                <input type="checkbox" class="check-box" id="agree"><span>I agree to terms & conditions</span>
+                <button type="button" class="submit-btn" onclick="registerFunc()">Register</button>
+            </form>
+        </div>
+    </div>
+
+    <script>
+        function login() {
+            document.getElementById("login").style.left = "50px";
+            document.getElementById("register").style.left = "450px";
+            document.getElementById("btn").style.left = "0";
+        }
+
+        function register() {
+            document.getElementById("login").style.left = "-400px";
+            document.getElementById("register").style.left = "50px";
+            document.getElementById("btn").style.left = "110px";
+        }
+
+        function loginFunc() {
+            var email = document.getElementById("login-username").value;
+            var passw = document.getElementById("login-password").value;
+
+            // Send a request to the server to validate login
+            // You should have a backend API to handle this
+
+            // For this example, we'll assume the login is successful:
+            var loginSuccessful = true; // This should be determined by server response
+            if (loginSuccessful) {
+                // Redirect to the dashboard after 2 seconds
+                setTimeout(function() {
+                    window.location.assign("../index.html");
+                }, 2000);
+            } else {
+                alert("Login failed. Please try again.");
+            }
+        }
+
+        function registerFunc() {
+            var username = document.getElementById("register-username").value;
+            var email = document.getElementById("register-email").value;
+            var password = document.getElementById("register-password").value;
+
+            // Send a request to the server to register the user
+            // You should have a backend API to handle this
+
+            // For this example, we'll assume registration is successful:
+            alert("Registration successful");
+        }
+    </script>
+</body>
+</html>

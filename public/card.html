@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Ordering Website</title>
+    <link rel="stylesheet" href="../css/card.css">
+</head>
+
+<body>
+    <!-- header section starts  -->
+    <header class="header">
+        <a href="#" class="logo"><i></i> Meal <span style="color: #228B22; font-size: 2.2rem; font-weight: bolder; font-family: 'Satisfy', cursive;">Mingle</span> </a>
+        <nav class="navbar">
+            <a href="../index.html">home</a>
+            <a href="#foot">about</a>
+            <a href="order.html">order</a>
+            <a href="menu.html">menu</a>
+            <a href="blog.html">blogs</a>
+            <a href="#">Card</a>
+        </nav>
+
+        <div class="btn1">
+            <a href="login.html" class="btn">Login</a>
+        </div>
+
+    </header>
+
+    <!--Header Section End-->
+
+    <div class="container">
+        <div class="item-list">
+            <ul>
+                <br>
+                <li><a href="menu.html">Menu</a></li>
+                <br>
+                <br>
+                <li><a href="order.html">Order</a></li>
+                <br>
+                <br>
+                <li><a href="blog.html">blogs</a></li>
+                <br>
+                <br>
+                <li><a href="#">content Us</a></li>
+                <br>
+            </ul>
+        </div>
+
+        <div class="catalogue-container">
+            <h2>Continue To Order...</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Image</th>
+                        <th>Items</th>
+                        <th>Price</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody id="cartItems">
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    
+<!-- footer section starts  -->
+
+<section class="footer" id="foot">
+
+    <div class="newsletter">
+        <h3>About</h3>
+        <form action="">
+            <input type="email" name="" placeholder="Enter your email" id="">
+            <input type="submit" value="subscribe">
+        </form>
+    </div>
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>menu</h3>
+            <a href="menu.html"><i class="fas fa-arrow-circle-right"></i> pizza</a>
+            <a href="menu.html"><i class="fas fa-arrow-circle-right"></i> burger</a>
+            <a href="menu.html"><i class="fas fa-arrow-circle-right"></i> chicken</a>
+            <a href="menu.html"><i class="fas fa-arrow-circle-right"></i> pasta</a>
+            <a href="menu.html"><i class="fas fa-arrow-circle-right"></i> and more...</a>
+        </div>
+
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="#home"> <i class="fas fa-arrow-circle-right"></i> home</a>
+            <a href="#about"> <i class="fas fa-arrow-circle-right"></i> about</a>
+            <a href="order.html"> <i class="fas fa-arrow-circle-right"></i> order</a>
+            <a href="menu.html"> <i class="fas fa-arrow-circle-right"></i> menu</a>
+            <a href="blog.html"> <i class="fas fa-arrow-circle-right"></i> blogs</a>
+        </div>
+
+        <div class="box">
+            <h3>additional links</h3>
+            <a href="#"> <i class="fas fa-arrow-circle-right"> </i> my order</a>
+            <a href="#"> <i class="fas fa-arrow-circle-right"> </i> my account</a>
+            <a href="#"> <i class="fas fa-arrow-circle-right"> </i> my favorite</a>
+            <a href="#"> <i class="fas fa-arrow-circle-right"> </i> terms of use</a>
+            <a href="#"> <i class="fas fa-arrow-circle-right"> </i> privary policy</a>
+        </div>
+
+        <div class="box">
+            <h3>opening hours</h3>
+            <p>monday : 8:00am to 11:00pm</p>
+            <p>tuesday : 8:00am to 11:00pm</p>
+            <p>wednesday : 8:00am to 11:00pm</p>
+            <p>thursday : 8:00am to 11:00pm</p>
+            <p>friday : 8:00am to 11:00pm</p>
+            <p>saturday and sunday closed</p>
+        </div>
+
+    </div>
+
+    <div class="bottom">
+
+        <div class="share">
+            <a href="#" class="fab fa-facebook-f"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="#" class="fab fa-instagram"></a>
+            <a href="#" class="fab fa-linkedin"></a>
+            <a href="#" class="fab fa-pinterest"></a>
+        </div>
+
+        <div class="credit"> &copy;2023<span> Foddies</span>  all rights reserved </div>
+
+    </div>
+
+</section>
+
+<!-- footer section ends -->
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            // Retrieve cart data from localStorage
+            let cart = JSON.parse(localStorage.getItem('cart')) || [];
+
+            // Display cart items on the page
+            const cartItemsElement = document.getElementById('cartItems');
+            cart.forEach((item, index) => {
+                const row = document.createElement('tr');
+                row.innerHTML = `
+                    <td><img src="${item.image}" alt="${item.items}" style="width: 65px; height: 65px;"></td>
+                    <td style="font-size: 20px">${item.items}</td>
+                    <td style="font-size: 20px">₹${item.price.toFixed(2)}</td>
+                    <td><button onclick="deleteItem(${index})">Delete</button></td>
+                `;
+                cartItemsElement.appendChild(row);
+            });
+        });
+
+        function deleteItem(index) {
+            // Retrieve cart data from localStorage
+            let cart = JSON.parse(localStorage.getItem('cart')) || [];
+
+            // Remove the item at the specified index
+            cart.splice(index, 1);
+
+            // Save the updated cart back to localStorage
+            localStorage.setItem('cart', JSON.stringify(cart));
+
+            // Refresh the page to reflect the changes
+            location.reload();
+        }
+    </script>
+</body>
+
+</html>
