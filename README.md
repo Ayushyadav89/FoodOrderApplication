@@ -47,7 +47,8 @@ We would like to thank our college faculty and peers for their support and guida
 
 # Home Page
 
-![Screenshot (9)](https://github.com/user-attachments/assets/f3d76197-cbe8-46d2-9478-7c12dab85bcd)
+![Screenshot (40)](https://github.com/user-attachments/assets/a5088b2a-e363-4775-a927-bcc46483ba2f)
+
 
 <hr>
 
@@ -64,32 +65,36 @@ We would like to thank our college faculty and peers for their support and guida
 <hr>
 
 # FrontEnd View of Home Page
-![Screenshot (10)](https://github.com/user-attachments/assets/98bca344-f44b-4470-9b08-f83c6c94562e)
-![Screenshot (11)](https://github.com/user-attachments/assets/89ae85c4-63d3-431f-9562-95e95102af59)
-![Screenshot (13)](https://github.com/user-attachments/assets/5daa6dbd-7c28-40b0-b96e-08e734cf5652)
-
+![Screenshot (41)](https://github.com/user-attachments/assets/d008a219-e34f-49cc-a400-0b6cee2d87fe)
+![Screenshot (42)](https://github.com/user-attachments/assets/6bbb050e-1def-409f-89e4-d4c86238e97a)
 
 <hr>
 
 # About Page
 
-![Screenshot (14)](https://github.com/user-attachments/assets/48a25a76-9beb-4a09-ba2c-e7d955f249d0)
-
-
-<hr>
-
-# Popular Dishes Page
-
-![Screenshot (15)](https://github.com/user-attachments/assets/6439356c-1e46-48e6-a1c1-15b589c8ee18)
+![Screenshot (43)](https://github.com/user-attachments/assets/621b1d8f-49c0-48c2-b799-13411bfed1f2)
 
 <hr>
 
-# Menu Page
+# Order Dishes Page
+![Screenshot (44)](https://github.com/user-attachments/assets/a96591a6-1351-4a88-8b96-a9e9d9ba35a0)
+![Screenshot (45)](https://github.com/user-attachments/assets/3a848dd5-5559-43ff-bdb9-3dee130bfca2)
+![Screenshot (46)](https://github.com/user-attachments/assets/3b9e74d2-1f84-4b97-95d4-5e6d065749cb)
 
-![Screenshot (16)](https://github.com/user-attachments/assets/fe64f350-35fc-4ff6-ae62-e46a03808e1a)
+<hr>
+
+# Cart Page
+![Screenshot (48)](https://github.com/user-attachments/assets/4402c321-c8bb-4c51-99d8-0087557c3280)
+
 
 <hr>
 
 # Blogs Page
+![Screenshot (47)](https://github.com/user-attachments/assets/7b14e975-7112-4985-8c2f-92606679a942)
 
-![Screenshot (20)](https://github.com/user-attachments/assets/d07045be-8628-4ca5-8e87-2871dc156d12)
+
+<hr>
+
+# Menu Page
+![Screenshot (51)](https://github.com/user-attachments/assets/7b7463b6-9883-4e76-b531-aec9d004a98d)
+
