@@ -47,7 +47,7 @@ We would like to thank our college faculty and peers for their support and guida
 
 # Home Page
 
-![Screenshot (40)](https://github.com/user-attachments/assets/a5088b2a-e363-4775-a927-bcc46483ba2f)
+![Screenshot (52)](https://github.com/user-attachments/assets/d82979c8-49af-4f8a-81dc-79d882afe944)
 
 
 <hr>
@@ -66,39 +66,44 @@ We would like to thank our college faculty and peers for their support and guida
 <hr>
 
 # FrontEnd View of Home Page
-![Screenshot (40)](https://github.com/user-attachments/assets/8f4028b5-ed67-4d4c-badc-8ee585044e99)
-![Screenshot (41)](https://github.com/user-attachments/assets/d008a219-e34f-49cc-a400-0b6cee2d87fe)
-![Screenshot (42)](https://github.com/user-attachments/assets/6bbb050e-1def-409f-89e4-d4c86238e97a)
+![Screenshot (52)](https://github.com/user-attachments/assets/0bab63fb-3303-46f5-932e-d467fe99c5fa)
+![Screenshot (53)](https://github.com/user-attachments/assets/bd98b932-0119-4dbc-88b6-03afed49c101)
+![Screenshot (54)](https://github.com/user-attachments/assets/9ebf38ba-33a9-402c-9e44-a5bd68781257)
+
 
 <hr>
 <hr>
 
 # About Page
 
-![Screenshot (43)](https://github.com/user-attachments/assets/621b1d8f-49c0-48c2-b799-13411bfed1f2)
+![Screenshot (55)](https://github.com/user-attachments/assets/565f1b91-7f9a-4b00-bbaa-6d440ffb55a5)
+
 
 <hr>
 <hr>
 
 # Order Dishes Page
-![Screenshot (44)](https://github.com/user-attachments/assets/a96591a6-1351-4a88-8b96-a9e9d9ba35a0)
-![Screenshot (45)](https://github.com/user-attachments/assets/3a848dd5-5559-43ff-bdb9-3dee130bfca2)
-![Screenshot (46)](https://github.com/user-attachments/assets/3b9e74d2-1f84-4b97-95d4-5e6d065749cb)
+![Screenshot (56)](https://github.com/user-attachments/assets/c298a723-4a9e-4a19-9cb0-067dcdea1c20)
+![Screenshot (57)](https://github.com/user-attachments/assets/fed16e42-5e96-43d9-ad6b-482073febfcd)
+![Screenshot (58)](https://github.com/user-attachments/assets/396d74f1-afcf-4125-955b-d6c90568ed71)
+
 
 <hr>
 
 # Cart Page
-![Screenshot (48)](https://github.com/user-attachments/assets/4402c321-c8bb-4c51-99d8-0087557c3280)
+
+![Screenshot (61)](https://github.com/user-attachments/assets/ca832f46-47d8-412a-93c4-98fcb2e08a6d)
 
 
 <hr>
 
 # Blogs Page
-![Screenshot (47)](https://github.com/user-attachments/assets/7b14e975-7112-4985-8c2f-92606679a942)
+![Screenshot (60)](https://github.com/user-attachments/assets/308bf9bd-90e9-4f5d-8b27-c0036bbe104b)
+
 
 
 <hr>
 
 # Menu Page
-![Screenshot (51)](https://github.com/user-attachments/assets/7b7463b6-9883-4e76-b531-aec9d004a98d)
+![Screenshot (59)](https://github.com/user-attachments/assets/24b3faf3-566d-4238-9cc1-e087e95cfb24)
 
