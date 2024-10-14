@@ -1,12 +1,12 @@
 # Meal Mingle
 
-Welcome to **Meal Mingle**, a food ordering website developed during our second year of college. This project was created to provide users with a seamless and user-friendly platform to browse, order, and enjoy their favorite meals from local restaurants.
+Welcome to **Food Hut**, a food ordering website developed during our second year of college. This project was created to provide users with a seamless and user-friendly platform to browse, order, and enjoy their favorite meals from local restaurants.
 
-Website Link - [Meal Mingle](https://ayushyadav89.github.io/FoodOrderApplication/public/index.html)
+Website Link - [Food Hut](https://ayushyadav89.github.io/FoodOrderApplication/public/index.html)
 
 ## Project Overview 
 
-FoodX is designed to simplify the food ordering process, offering an intuitive interface for users to explore a variety of cuisines and dishes. Whether you're craving a quick snack or a full meal, FoodX has got you covered.
+Food Hut is designed to simplify the food ordering process, offering an intuitive interface for users to explore a variety of cuisines and dishes. Whether you're craving a quick snack or a full meal, Food Hut has got you covered.
 
 ### Key Features
 - **User-Friendly Interface:** Easy navigation with a clean and modern design.
