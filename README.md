@@ -63,17 +63,21 @@ We would like to thank our college faculty and peers for their support and guida
 ![Screenshot (22)](https://github.com/user-attachments/assets/cba9ff15-c066-4680-a05d-ec3a8d6f6826)
 
 <hr>
+<hr>
 
 # FrontEnd View of Home Page
+![Screenshot (40)](https://github.com/user-attachments/assets/8f4028b5-ed67-4d4c-badc-8ee585044e99)
 ![Screenshot (41)](https://github.com/user-attachments/assets/d008a219-e34f-49cc-a400-0b6cee2d87fe)
 ![Screenshot (42)](https://github.com/user-attachments/assets/6bbb050e-1def-409f-89e4-d4c86238e97a)
 
+<hr>
 <hr>
 
 # About Page
 
 ![Screenshot (43)](https://github.com/user-attachments/assets/621b1d8f-49c0-48c2-b799-13411bfed1f2)
 
+<hr>
 <hr>
 
 # Order Dishes Page
